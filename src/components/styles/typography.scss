@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+p {
+  font-family: 'Quicksand', sans-serif !important;
+  color: white;
+}
+
+.t-heading {
+  &-first {
+    font-size: 2rem;
+  }
+
+  &-second {
+    font-size: 1.7rem;
+  }
+
+  &-third {
+    font-size: 1.5rem;
+  }
+}
